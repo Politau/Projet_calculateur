@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calcul de moyenne</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<h1>Calcul de moyenne</h1>
+
+<table>
+  <thead>
+  <tr>
+    <th>Note</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td><input type="number" class="note" min="0" max="20"></td>
+  </tr>
+  <tr>
+    <td><input type="number" class="note" min="0" max="20"></td>
+  </tr>
+  <tr>
+    <td><input type="number" class="note" min="0" max="20"></td>
+  </tr>
+  <!-- Ajoutez plus de lignes selon le nombre de notes que vous voulez calculer -->
+  </tbody>
+</table>
+
+<button id="calculer">Calculer la moyenne</button>
+
+<p id="resultat"></p>
+
+<script src="../calculateur.js"></script>
+</body>
+</html>
