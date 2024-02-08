@@ -1,0 +1,10 @@
+.noir {
+    background-color: #000000;
+    color: #000000;
+}
+
+table td, table th {
+    text-align: center;
+    border-collapse: separate;
+    border: 1px solid black;
+}
